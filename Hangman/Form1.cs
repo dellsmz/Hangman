@@ -95,7 +95,7 @@ namespace Hangman
             LB_LivesLeft.Text = LivesLeft.ToString();
             
             // Displays message telling what the word is (For testing only)
-            MessageBox.Show(SecretWord);
+            //MessageBox.Show(SecretWord);
             MessageBox.Show("A new secret word has been generated", "Hangman");
         }
         
