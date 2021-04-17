@@ -118,7 +118,7 @@ namespace Hangman
             }
             
             // Testes to see if guess is apart of word and displays guess
-            // in its position (either on the line or in incorrect box
+            // in its position (either on the line or in incorrect box)
             if (SecretWord.Contains(CharToGuess.Text.ToLower()))
             {
                 if (CharToGuess.Text == c1.ToString())
