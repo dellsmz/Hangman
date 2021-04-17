@@ -53,6 +53,7 @@ namespace Hangman
             this.Left_leg = new System.Windows.Forms.Label();
             this.Right_arm = new System.Windows.Forms.Label();
             this.Left_arm = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Btn_Play
@@ -248,7 +249,7 @@ namespace Hangman
             this.Head.ForeColor = System.Drawing.Color.SaddleBrown;
             this.Head.Location = new System.Drawing.Point(192, 145);
             this.Head.Name = "Head";
-            this.Head.Size = new System.Drawing.Size(45, 35);
+            this.Head.Size = new System.Drawing.Size(44, 34);
             this.Head.TabIndex = 19;
             this.Head.Text = "O";
             // 
@@ -292,12 +293,23 @@ namespace Hangman
             this.Left_arm.Size = new System.Drawing.Size(48, 10);
             this.Left_arm.TabIndex = 24;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(362, 424);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(518, 17);
+            this.label7.TabIndex = 25;
+            this.label7.Text = "Press play to start game and to reset. Press guess to inpt your guess.";
+            // 
             // Hangman
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(913, 450);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.Left_arm);
             this.Controls.Add(this.Right_arm);
             this.Controls.Add(this.Left_leg);
@@ -356,6 +368,7 @@ namespace Hangman
         private System.Windows.Forms.Label Left_leg;
         private System.Windows.Forms.Label Right_arm;
         private System.Windows.Forms.Label Left_arm;
+        private System.Windows.Forms.Label label7;
     }
 }
 
